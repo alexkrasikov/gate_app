@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    font-family: 'HelveticaNeue-UltraLight';
 }
 ol, ul {
     list-style: none;
@@ -61,15 +62,24 @@ table {
 #head {
     width: 100%;
     height: 385px;
-    font-family: 'HelveticaNeue-UltraLight';
 }
 
-#titleName {
+#title_Name {
     font-size: 60pt;
     color: #a46b28;
 }
 
-#titleText {
+#title_Text {
     font-size: 20pt;
     color: #535353;
+}
+
+.logo_iphone {
+    background: url(../img/iPhone.png) no-repeat;
+    height: 535px;
+    width: 800px;
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 365px;
 }
