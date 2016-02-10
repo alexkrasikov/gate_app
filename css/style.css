@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     font-family: 'HelveticaNeue-UltraLight';
+    font-size:12pt;
+    color: #7c6b57;
 }
 ol, ul {
     list-style: none;
@@ -54,7 +56,7 @@ table {
 }
 
 #container, #about {
-    width: 1040px;
+    width: 875px;
     height: auto;
     margin: 0 auto;
 }
@@ -64,12 +66,12 @@ table {
     height: 440px
 }
 
-#title_Name {
+.title_Name {
     font-size: 60pt;
     color: #a46b28;
 }
 
-#title_Text {
+.title_Text {
     font-size: 20pt;
     color: #535353;
 }
@@ -78,10 +80,10 @@ table {
     background: url(../img/iPhone.png) no-repeat;
     height: 535px;
     width: 800px;
-    position: absolute;
+    position: relative;
     z-index: 1;
-    top: 60px;
-    left: 365px;
+    top: -185px;
+    left: 225px;
 }
 
 #about_box {
@@ -92,4 +94,24 @@ table {
 
 #about {
     height: 300px;
+}
+
+.select {
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.info_box {
+    padding-top: 70px;
+    width: 355px;
+    height: auto;
+    float: left;
+}
+
+.what_android {
+    text-align: right;
+    padding-top: 50px;
+    width: 355px;
+    height: auto;
+    float: right;
 }
