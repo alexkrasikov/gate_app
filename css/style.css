@@ -55,7 +55,7 @@ table {
     src: url(../fonts/HelveticaNeue-UltraLight.otf);
 }
 
-#container, #about {
+#container, #golden_stripe, #gray_stripe {
     width: 875px;
     height: auto;
     margin: 0 auto;
@@ -86,13 +86,13 @@ table {
     left: 225px;
 }
 
-#about_box {
+#golden_stripe_box {
     width: 100%;
     height: auto;
     background: #e3caad;
 }
 
-#about {
+#golden_stripe {
     height: 300px;
 }
 
@@ -114,4 +114,19 @@ table {
     width: 355px;
     height: auto;
     float: right;
+}
+
+#gray_stripe_box {
+    width: 100%;
+    height: auto;
+    background: #eeeeee;
+}
+
+#gray_stripe {
+    height: 440px;
+}
+
+.title_name_gray {
+    font-size: 28pt;
+    color: #a16927;
 }
