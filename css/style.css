@@ -130,3 +130,13 @@ table {
     font-size: 28pt;
     color: #a16927;
 }
+
+.logo_iphone_gray {
+    background: url(../img/iphone_gray.png) no-repeat;
+    height: 367px;
+    width: 253px;
+    position: relative;
+    z-index: 1;
+    top: 73px;
+    left: 545px;
+}
