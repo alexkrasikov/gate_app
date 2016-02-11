@@ -55,7 +55,7 @@ table {
     src: url(../fonts/HelveticaNeue-UltraLight.otf);
 }
 
-#container, #golden_stripe, #gray_stripe {
+#container, #golden_stripe, #gray_stripe,#photo_stripe {
     width: 875px;
     height: auto;
     margin: 0 auto;
@@ -139,4 +139,48 @@ table {
     z-index: 1;
     top: 73px;
     left: 545px;
+}
+
+#photo_stripe_box {
+    background: url(../img/shadow_block.png) no-repeat;
+    width: 100%;
+    height: auto;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+#photo_stripe {
+    height: 486px;
+}
+
+.photo_title {
+    font-size: 34pt;
+}
+
+.photo_stripe_text {
+    padding-top: 50px ;
+    text-align: center;
+    color: #ffffff;
+    line-height: 22px;
+}
+
+.photo_tag_color {
+    color: #c4c4c4;
+}
+
+.photo_iphone {
+    background: url(../img/iphone_gray.png) no-repeat;
+    height: 318px;
+    width: 253px;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    left: 295px;
+}
+
+#picjumbo {
+    text-decoration: underline;
+    color: #c4c4c4;
 }
