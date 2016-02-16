@@ -49,15 +49,16 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+.clear {
+    clear:both;
+}
 @font-face {
     font-family: 'HelveticaNeue-UltraLight';
     src: url(../fonts/HelveticaNeue-UltraLight.otf);
 }
 
-#container, #golden_stripe, #gray_stripe,#photo_stripe {
+#container, #golden_stripe, #gray_stripe,#photo_stripe, #gold_stripe {
     width: 875px;
-    height: auto;
     margin: 0 auto;
 }
 
@@ -66,12 +67,12 @@ table {
     height: 440px
 }
 
-.title_Name {
+.title_name {
     font-size: 60pt;
     color: #a46b28;
 }
 
-.title_Text {
+.title_tag {
     font-size: 20pt;
     color: #535353;
 }
@@ -81,8 +82,7 @@ table {
     height: 535px;
     width: 800px;
     position: relative;
-    z-index: 1;
-    top: -185px;
+    top: -340px;
     left: 225px;
 }
 
@@ -166,13 +166,17 @@ table {
     line-height: 22px;
 }
 
-.photo_tag_color {
+.photo_stripe_text a {
+    padding: 0;
+}
+
+.tag_color {
     color: #c4c4c4;
 }
 
 .photo_iphone {
     background: url(../img/iphone_gray.png) no-repeat;
-    height: 318px;
+    height: 320px;
     width: 253px;
     position: relative;
     z-index: 1;
@@ -183,4 +187,110 @@ table {
 #picjumbo {
     text-decoration: underline;
     color: #c4c4c4;
+}
+
+#gold_stripe_box {
+    background: #a16927;
+    width: 100%;
+    height: auto;
+}
+
+#gold_stripe {
+    height: 440px;
+    margin: 0 auto;
+}
+
+.gold_title {
+    color: #ffffff;
+    font-size: 32pt;
+}
+
+#gold_tag_right, #gold_title_left {
+    margin-top: 150px;
+    width: 405px;
+    height: 100px;
+}
+#gold_title_left {
+
+    text-align: right;
+    float:left;
+}
+
+#gold_tag_right {
+    text-align: left;
+    float:right;
+}
+
+#footer {
+    width: 875px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#footer_line {
+    padding-top: 75px;
+    width: 100%;
+    height: 45px;
+}
+
+#footer_title{
+    float:left;
+    height:100%;
+}
+
+.footer_name {
+    color: #a46b28;
+    font-size: 20pt;
+}
+
+.footer_tag {
+    color: #3f3f3f;
+}
+
+#footer_info {
+    float: right;
+    height: 20px;
+    width: 500px;
+    padding-top: 15px;
+    font-size: 14pt;
+}
+
+a {
+    text-decoration: none;
+    color: #c6a278;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+#footer a {
+    padding: 0px 15px 0px 0px;
+}
+
+#app_button {
+    padding-top: 160px;
+}
+
+#twitter {
+    color:#00aad5;
+}
+
+#facebook {
+    color: #0f4991;
+}
+
+.app_store {
+    background: url(../img/app_store.png) no-repeat;
+}
+
+.google_play {
+    background: url(../img/google_play.png) no-repeat;
+}
+
+#google_play_button {
+    height: 50px;
+    width: 150px;
+    position: relative;
+    left: 350px;
+    top: 250px;
+    float: right;
 }
