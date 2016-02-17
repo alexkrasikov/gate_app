@@ -70,6 +70,10 @@ table {
 .title_name {
     font-size: 60pt;
     color: #a46b28;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
 }
 
 .title_tag {
@@ -106,6 +110,7 @@ table {
     width: 355px;
     height: auto;
     float: left;
+    line-height: 22px;
 }
 
 .what_android {
@@ -114,6 +119,7 @@ table {
     width: 355px;
     height: auto;
     float: right;
+    line-height: 22px;
 }
 
 #gray_stripe_box {
@@ -127,7 +133,7 @@ table {
 }
 
 .title_name_gray {
-    font-size: 28pt;
+    font-size: 22pt;
     color: #a16927;
 }
 
@@ -148,7 +154,6 @@ table {
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
 }
 
 #photo_stripe {
@@ -178,10 +183,7 @@ table {
     background: url(../img/iphone_gray.png) no-repeat;
     height: 320px;
     width: 253px;
-    position: relative;
-    z-index: 1;
-    top: 20px;
-    left: 295px;
+    margin: 20px auto;
 }
 
 #picjumbo {
@@ -206,7 +208,7 @@ table {
 }
 
 #gold_tag_right, #gold_title_left {
-    margin-top: 150px;
+    margin-top: 140px;
     width: 405px;
     height: 100px;
 }
@@ -238,6 +240,13 @@ table {
     height:100%;
 }
 
+.footer_name, .footer_tag {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+}
+
 .footer_name {
     color: #a46b28;
     font-size: 20pt;
@@ -248,21 +257,42 @@ table {
 }
 
 #footer_info {
-    float: right;
+    float: left;
     height: 20px;
-    width: 500px;
-    padding-top: 15px;
+    width: 320px;
+    padding: 15px 0px 0px 150px;
     font-size: 14pt;
 }
+
 
 a {
     text-decoration: none;
     color: #c6a278;
-    padding-left: 150px;
-    padding-top: 50px;
+    padding: 50px 0px 0px 150px;
+}
+.button_read_more {
+    text-decoration:none;
+    text-align:center;
+    padding: 15px 70px;
+    border:none;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius: 4px;
+    font-weight:bold;
+    color:#757575;
+    background:#d8d8d8;
 }
 
-#footer a {
+#button_golden {
+    background-color: rgba(0,0,0,0.2);
+    color: #ffffff;
+    position: relative;
+    top: 50px;
+    left: 325px;
+}
+
+
+#footer_info a {
     padding: 0px 15px 0px 0px;
 }
 
@@ -287,10 +317,18 @@ a {
 }
 
 #google_play_button {
-    height: 50px;
-    width: 150px;
-    position: relative;
-    left: 350px;
-    top: 250px;
     float: right;
+}
+
+.footer_button {
+    float:right;
+    background-size: 95%;
+}
+
+.buttons_footer a {
+    padding: 31px 0px 0px 100px;
+}
+
+.buttons_footer {
+    padding-top: 10px;
 }
